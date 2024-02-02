@@ -6,13 +6,19 @@
 
 nav {
     background-color: #006BA6;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: #FF4D00;
+    color: #fff;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
@@ -22,18 +28,14 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #006BA6;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #006BA6;
     float: right;
 }
 
 p {
     padding: 10px;
-}
-
-main {
-    max-width: 840px;
 }
 
 aside {
@@ -54,8 +56,9 @@ aside img {
 
 p {padding: 0;}
 
-footer {
-    margin-top: 15px;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -66,12 +69,28 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #006BA6;
-    color: #FF4D00;
+    background-color: #FF4D00;
+    color: #fff;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
