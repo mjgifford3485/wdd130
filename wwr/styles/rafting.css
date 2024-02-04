@@ -29,7 +29,18 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+header img {
+	margin: 0 0.25rem 0 1rem;
+	width: 125px;
+	height: auto;
 }
 
 p {
@@ -39,7 +50,8 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
+    text-align: right;
+
 }
 
 nav a {
@@ -60,7 +72,7 @@ nav a:hover {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
     position: relative;
 }
@@ -76,5 +88,43 @@ article img {
 .sociallinks img {
     height: 1rem;
     width: auto;
-    position: absolute;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sociallinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
