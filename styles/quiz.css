@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+input:focus {
+    outline: 4px solid #FF4D00;
+}
+
+textarea:focus {
+    outline: 4px solid #FF4D00;
+}
+
+select:focus {
+    outline: 4px solid #FF4D00;
+}
+
 h1 {
     font-family: 'Rock Salt', cursive;
     text-align: center;
