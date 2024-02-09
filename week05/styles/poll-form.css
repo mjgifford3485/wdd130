@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@300;400&family=Rock+Salt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: #FF4D00;
+    color: #006BA6;
+    font-size: 2rem;
+    padding: 20px;
+    border: 5px solid #2E282A;
+}
+
+body {
+    font-family: 'Rock Salt', cursive;
+    color: #006BA6; 
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    font-family: 'Merriweather', serif;
+    color: #2E282A;
+    border-top: 1px #2E282A;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #E0E0E0;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem; 
+}
+
+legend {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5rem;
+    color: #FF4D00;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: #2E282A;
+}
+
+label {
+    text-align: right;
+        padding-right: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #FF4D00;  
+    padding: 15px;
+    text-align: center;
+    color: #2E282A;
+}
+
+button:hover {
+    background-color: #006BA6;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
