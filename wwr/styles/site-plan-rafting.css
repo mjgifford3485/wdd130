@@ -36,7 +36,7 @@ p {
 }
 
 nav {
-    background-color: var(--nav-hover-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-hover-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
