@@ -21,7 +21,7 @@ h2, h3, h4, h5, h6 {
     background-color: var(--secondary-color);   
 }
 
-h1 {
+.hero h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
@@ -67,17 +67,6 @@ body {
     display: block;
     width: 100%;
     height: auto;
-}
-
-article {
-
-}
-
-article h2 {
-    color: #EE7B11;
-    position: absolute;
-    top: 20px;
-    left: 70px;
 }
 
 article img {
