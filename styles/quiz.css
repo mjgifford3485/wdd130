@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;;
+    display: block;
+    padding: 20px;
+    text-align: center; 
+}
+
+legend {
+    font-family: "Pacifico", cursive;;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-family: "Oswald", sans-serif;
+    color: darkblue;
+}
+
+body {
+    background-color: #DADAD9;
+    color: darkblue;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 255, .1);
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    margin: 1rem;
+    border: solid rgba(0, 0, 255, .2);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: darkblue;
+    color: #DADAD9;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #EE7B11;
+}
