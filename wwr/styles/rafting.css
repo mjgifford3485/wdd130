@@ -78,17 +78,17 @@ h2, h3, h4, h5, h6 {
     grid-column: 2 / 3;
 }
 
-.adventure {
+.pictures {
     display: grid;
     justify-content: space-around;
 }
 
-.adventure h2 {
+.pictures h2 {
     grid-column: 1 / 5;
 
 }
 
-.adventure img {
+.pictures img {
     display: flex;
     flex-direction: row;
 }
@@ -159,4 +159,115 @@ section img {
 footer {
     display: flex;
     justify-content: end;
+}
+
+.introduction h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: relative;
+	top: 20px;
+	left: 0;
+	background: radial-gradient(var(--secondary-color), var(--accent2-color));
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+    width: 100%;
+    text-align: center;
+}
+
+.introduction p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact iframe {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    justify-content: center;
+}
+
+
+.contact {
+    padding: 20px; 
+     
+}
+
+.contact p{
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+}
+
+legend {
+    font-family: var(--paragraph-font);
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+label, input, button, select, textarea {
+    font-family: "Oswald", sans-serif;
+    color: var(--secondary-color);
+}
+
+body {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 255, .1);
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    margin: 1rem;
+    border: solid var(--secondary-color);
+    justify-content: center;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #EE7B11;
 }
