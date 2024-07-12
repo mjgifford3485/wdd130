@@ -51,7 +51,7 @@ header img {
 
 .navigation a {
 	display: block;
-	color: darkblue;
+	color: var(--secondary-color);
 	padding: 20px;
 	text-decoration: none;
 }
@@ -159,6 +159,22 @@ section img {
 footer {
     display: flex;
     justify-content: end;
+}
+
+.wireframe a{
+    display: block;
+	color: var(--accent1-color);
+	padding: 5px;
+    margin-right: 125px;
+    margin-top: 5px;
+    border: 1px solid var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.wireframe a:hover {
+    color: var(--primary-color);
 }
 
 .introduction h1 {
