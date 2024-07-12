@@ -159,7 +159,7 @@ section img {
 footer {
     display: flex;
     justify-content: end;
-    align-content: center;
+    align-items: center;
 }
 
 footer p, a {
