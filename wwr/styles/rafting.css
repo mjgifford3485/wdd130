@@ -159,21 +159,26 @@ section img {
 footer {
     display: flex;
     justify-content: end;
+    align-content: center;
 }
 
-.wireframe a{
+footer p, a {
+    padding: 5px;
+}
+
+.wireframe {
     display: block;
 	color: var(--accent1-color);
 	padding: 5px;
-    margin-right: 125px;
-    margin-top: 5px;
     border: 1px solid var(--secondary-color);
     text-decoration: none;
     text-align: center;
     background-color: var(--secondary-color);
+    align-self: center;
+    margin-right: 95px;
 }
 
-.wireframe a:hover {
+.wireframe:hover {
     color: var(--primary-color);
 }
 
